@@ -35,8 +35,8 @@ li:hover{
 li a{
     padding:1em 2em 1em 2em;
     text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #273E47;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
 }
 
 main{
@@ -60,7 +60,7 @@ footer{
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display:grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: auto;
