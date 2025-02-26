@@ -1,12 +1,13 @@
 function circlePress(){
     console.log("button pressed");
-    document.body.style.background = 'none';
-    document.body.style.backgroundColor = 'blue';
+    var circle = document.getElementById('circle');
+
+    circle.style.opacity = 1;
 }
 
 function onLoad(){
     var circle = document.getElementById('circle');
-
+    circle.style.opacity = 0.5;
     circle.addEventListener('click',circlePress);
 }
 

@@ -6,7 +6,7 @@ function circlePress(){
 
 function onLoad(){
     var circle = document.getElementById('circle');
-
+    circle.style.opacity = 0.5;
     circle.addEventListener('click',circlePress);
 }
 
