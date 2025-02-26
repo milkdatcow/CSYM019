@@ -21,8 +21,8 @@ function updatetext(){
 function addlisteners(){
     var header = document.getElementById('header');
     var text = document.getElementById('text');
-    header.addEventListener('mouseleave',updateheader)
-    text.addEventListener('mouseenter',updatetext)
+    header.addEventListener('click',updateheader)
+    text.addEventListener('click',updatetext)
 
 }
 
