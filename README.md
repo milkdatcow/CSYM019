@@ -4,9 +4,7 @@
 <p>To use the website:</p>
 <ul>
   <li>Download or clone the project.</li>
-  <li>This project uses Docker to host the website locally. In Powershell or any terminal open the 'Assignment Files' directory and run the following command to initiate the server:</li>
-  <li>docker-compose up -d</li>
+  <li>This project uses Docker to host the website locally. In Powershell or any terminal open the 'Assignment Files' directory and run the following command to initiate the server: docker-compose up -d</li>
   <li>You can then access the website through https://v.je</li>
-  <li>To turn off the server use the following command:</li>
-  <li>docker-compose down</li>
+  <li>To turn off the server use the following command: docker-compose down</li>
 </ul>
