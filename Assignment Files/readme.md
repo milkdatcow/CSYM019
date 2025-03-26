@@ -1,4 +1,5 @@
 <p>To turn the server on:<br> 
+docker build -t my-website . <br>
 docker run -d -p 8080:80 --name my-website-container my-website <br><br>
 
 To access the website:<br>
