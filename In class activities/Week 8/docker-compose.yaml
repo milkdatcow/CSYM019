@@ -1,9 +1,0 @@
-version: "3.8"
-
-services:
-  web:
-    image: nginx  # Official NGINX web server
-    ports:
-      - "8080:80"  # Maps localhost:8080 to container's port 80
-    volumes:
-      - "./Week 8:/usr/share/nginx/html"  # Mounts local files
