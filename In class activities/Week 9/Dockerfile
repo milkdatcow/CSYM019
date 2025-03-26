@@ -9,6 +9,8 @@ WORKDIR /var/www/html
 # Copy the PHP file into the container's web directory
 COPY index.php /var/www/html/
 
+COPY . /var/www/html/
+
 # Set the ServerName to suppress the warning about Apache's domain name
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
